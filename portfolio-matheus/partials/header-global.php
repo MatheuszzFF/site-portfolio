@@ -27,6 +27,7 @@
             <div class="header__mobileBtn">
                 <div class="btnMobile">
                 </div>
+                <div></div>
             </div>
         </div>
    </div>

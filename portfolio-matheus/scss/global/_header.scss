@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    .logo {
+        font: {
+            size: 48px;
+            weight: $fontSemiBold;
+        }
+        color: $primaryColor;
+    }
+
+    &__menu {
+        > ul {
+            display: flex;
+
+           > li {
+                > a {
+                    font: {
+                        size: 18px;
+                        weight: $fontSemiBold;
+                    }
+                    color: $gray;
+                    transition: .3s;
+
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+               + li {
+                    margin-left: 80px;
+               } 
+            }
+        }
+    }
+
+    &__mobileBtn {
+        display: none;
+    }
+}

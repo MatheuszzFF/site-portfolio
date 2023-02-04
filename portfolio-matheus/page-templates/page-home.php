@@ -8,7 +8,7 @@
                 <div class="d-flex">
                     <h2><?php the_field('banner_left_text') ?></h2>
                     <?php 
-                        $image = get_sub_field('banner_self_image');
+                        $image = get_field('banner_self_image');
                         $image_url = $image['url'];
                         $image_alt = $image['alt'];
                     

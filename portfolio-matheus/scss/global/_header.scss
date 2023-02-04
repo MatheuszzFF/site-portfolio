@@ -3,13 +3,16 @@
     width: 100%;
     left: 0;
     top: 0;
-
+    padding: 40px 0;
+    
     .logo {
-        font: {
-            size: 48px;
-            weight: $fontSemiBold;
+        a {
+            font: {
+                size: 48px;
+                weight: $fontSemiBold;
+            }
+            color: $primaryColor;
         }
-        color: $primaryColor;
     }
 
     &__menu {

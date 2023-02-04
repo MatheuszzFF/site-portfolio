@@ -3,7 +3,7 @@
    <div class="container">
         <div class="d-flex align-items-center justify-content-between">
             <div class="header__logo">
-                <a href="<?php get_home_url(); ?>">M</a>
+                <a href="<?= get_home_url(); ?>">M</a>
             </div>
     
             <nav class="header__menu">

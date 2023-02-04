@@ -1,4 +1,4 @@
-</main>
+<!-- </main>
     <footer class='footer'>
         <div class="container">
             <p>Todos os direitos Reservados</p>
@@ -6,4 +6,4 @@
     </footer>
     
     <?php wp_footer(); ?>
-<body>
+<body> -->

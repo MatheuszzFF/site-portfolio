@@ -17,4 +17,4 @@
 </head>
 <body <?php body_class(); ?> >
 
-<?php get_template_part('partials/header', 'white'); ?>
+<?php get_template_part('partials/header', 'global'); ?>

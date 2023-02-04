@@ -11,10 +11,6 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <title><?php wp_title(); ?></title>
     <?php wp_head();?> 
-    <script> 
-        const $ = jQuery.noConflict();
-    </script>
 </head>
 <body <?php body_class(); ?> >
 
-<?php get_template_part('partials/header', 'global'); ?>

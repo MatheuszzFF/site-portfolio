@@ -3836,7 +3836,7 @@ body.customize-support .header.intern {
   top: 0;
   padding: 40px 0;
 }
-.header .logo a {
+.header__logo a {
   font-size: 48px;
   font-weight: 600;
   color: #FFD838;

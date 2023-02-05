@@ -6,6 +6,7 @@
         <section class="home__banner">
             <div class="bannerBox">
                 <div class="d-flex align-items-center">
+                    <h4></h4>
                     <h2><?php the_field('banner_left_text') ?></h2>
                     <?php 
                         $image = get_field('banner_self_image');

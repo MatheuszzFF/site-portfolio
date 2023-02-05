@@ -3871,6 +3871,7 @@ body.customize-support .header.intern {
   line-height: 58px;
   color: #161618;
   text-transform: uppercase;
+  max-width: 35%;
 }
 .home__banner h2.white {
   color: #FFFFFF;

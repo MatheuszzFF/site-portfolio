@@ -3932,7 +3932,7 @@ body.customize-support .header.intern {
 }
 @media (max-width: 1000px) {
   .home__banner {
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 15px;
     background: linear-gradient(180deg, #FFFFFF 50%, #161618 0.1%, #161618 50%);
   }

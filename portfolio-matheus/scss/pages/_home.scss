@@ -2,6 +2,20 @@
     &__banner {
         height: 100vh;
         width: 100%;
-        background: linear-gradient(180deg,$white 50%,$black 0.1%,$black 50%);
+        background: linear-gradient(90deg,$white 50%,$black 0.1%,$black 50%);
+
+        h2 {
+            font: {
+                size: 48px;
+                weight: $fontSemiBold;
+            }
+            line-height: 58px;
+            color: $black;
+            text-transform: uppercase;
+
+            &.white {
+                color: $white;
+            }
+        }
     }
 }

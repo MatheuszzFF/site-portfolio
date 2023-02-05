@@ -3863,7 +3863,17 @@ body.customize-support .header.intern {
 .home__banner {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #FFFFFF 50%, #161618 0.1%, #161618 50%);
+  background: linear-gradient(90deg, #FFFFFF 50%, #161618 0.1%, #161618 50%);
+}
+.home__banner h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #161618;
+  text-transform: uppercase;
+}
+.home__banner h2.white {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

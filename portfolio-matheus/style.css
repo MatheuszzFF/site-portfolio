@@ -3878,13 +3878,13 @@ body.customize-support .header.intern {
     top: 0;
     transition: 0.4s;
     background-color: #FFD838;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 .header__menu.active {
   right: 0%;
-  padding-top: 80px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 .header__menu.active > ul > li > a {
   text-align: center;

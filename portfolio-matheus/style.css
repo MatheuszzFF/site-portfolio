@@ -3887,8 +3887,7 @@ body.customize-support .header.intern {
   right: 0%;
 }
 .header__menu.active > ul > li > a {
-  text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .header__menu.active > ul > li > a:hover {
   all: unset;

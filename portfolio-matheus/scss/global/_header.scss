@@ -37,9 +37,37 @@
                } 
             }
         }
+
+        @media(max-width:1000px) {
+            position: absolute;
+            right: -100%;
+            top: 0;
+        }
+        
     }
 
     &__mobileBtn {
         display: none;
+
+        @media(max-width:1000px) {
+           display: block;
+        }
+
+        .btnMobile {
+            width: 100px;
+            height: 4px;
+            background-color: $primaryColor;
+            position: relative;
+
+            &::before, &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 10px;
+                width: 100%;
+                height: 4px;
+                background-color: $primaryColor;
+            }
+        }
     }
 }

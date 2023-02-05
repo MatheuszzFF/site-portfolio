@@ -51,9 +51,9 @@
 
         @media(max-width:1000px) {
            display: flex;
-           justify-content: center;
+           align-items: center;
            transition: .3s;
-           height: 40px;
+           height: 38px;
            cursor: pointer;
         }
 

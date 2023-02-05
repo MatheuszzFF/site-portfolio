@@ -3869,9 +3869,9 @@ body.customize-support .header.intern {
 @media (max-width: 1000px) {
   .header__mobileBtn {
     display: flex;
-    justify-content: center;
+    align-items: center;
     transition: 0.3s;
-    height: 40px;
+    height: 38px;
     cursor: pointer;
   }
 }

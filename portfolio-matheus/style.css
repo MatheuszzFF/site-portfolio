@@ -3868,8 +3868,10 @@ body.customize-support .header.intern {
 }
 @media (max-width: 1000px) {
   .header__mobileBtn {
-    display: block;
+    display: flex;
+    justify-content: center;
     transition: 0.3s;
+    height: 40px;
     cursor: pointer;
   }
 }

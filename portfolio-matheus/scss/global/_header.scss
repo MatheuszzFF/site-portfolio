@@ -52,7 +52,9 @@
         }
 
         @media(max-width:1000px) {
-            position: absolute;
+            position: fixed;
+            width: 60vw;
+            height: 100vh;
             right: -100%;
             top: 0;
             transition: .4s;
@@ -60,6 +62,19 @@
 
         &.active {
             right: 0%;
+            padding: {
+                top: 80px;
+                left: 40px;
+                right: 40px;
+            }
+
+            > ul {
+                > li {
+                    > a {
+                        text-align: center;
+                    }
+                }
+            }
         }
         
     }

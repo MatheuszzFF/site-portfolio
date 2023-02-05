@@ -3871,7 +3871,9 @@ body.customize-support .header.intern {
 }
 @media (max-width: 1000px) {
   .header__menu {
-    position: absolute;
+    position: fixed;
+    width: 60vw;
+    height: 100vh;
     right: -100%;
     top: 0;
     transition: 0.4s;
@@ -3879,6 +3881,12 @@ body.customize-support .header.intern {
 }
 .header__menu.active {
   right: 0%;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header__menu.active > ul > li > a {
+  text-align: center;
 }
 .header__mobileBtn {
   display: none;

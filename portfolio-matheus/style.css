@@ -3874,7 +3874,11 @@ body.customize-support .header.intern {
     position: absolute;
     right: -100%;
     top: 0;
+    transition: 0.4s;
   }
+}
+.header__menu.active {
+  right: 0%;
 }
 .header__mobileBtn {
   display: none;

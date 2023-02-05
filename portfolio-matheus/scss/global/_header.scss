@@ -42,7 +42,7 @@
                 }
                + li {
                     margin-top: 60px;
-                    
+
                     @media(min-width:1001px) {
                         margin-left: 80px;
                         margin-top: none;
@@ -55,6 +55,11 @@
             position: absolute;
             right: -100%;
             top: 0;
+            transition: .4s;
+        }
+
+        &.active {
+            right: 0%;
         }
         
     }

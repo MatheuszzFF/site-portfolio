@@ -3876,7 +3876,11 @@ body.customize-support .header.intern {
   line-height: 58px;
   color: #161618;
   text-transform: uppercase;
-  max-width: 35%;
+}
+@media (min-width: 560px) {
+  .home__banner h2 {
+    max-width: 35%;
+  }
 }
 .home__banner h2.white {
   color: #FFFFFF;

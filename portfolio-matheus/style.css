@@ -3877,6 +3877,7 @@ body.customize-support .header.intern {
     right: -100%;
     top: 0;
     transition: 0.4s;
+    background-color: #FFD838;
   }
 }
 .header__menu.active {

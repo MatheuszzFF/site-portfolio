@@ -4,9 +4,8 @@
     <main class="home">
         <!--Banner-->
         <section class="home__banner">
-            <div class="bannerBox">
-                <div class="d-flex align-items-center">
-                    <h4></h4>
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between h-100 w-100">
                     <h2><?php the_field('banner_left_text') ?></h2>
                     <?php 
                         $image = get_field('banner_self_image');

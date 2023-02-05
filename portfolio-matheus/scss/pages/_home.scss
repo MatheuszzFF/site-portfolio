@@ -4,6 +4,12 @@
         width: 100%;
         background: linear-gradient(90deg,$white 50%,$black 0.1%,$black 50%);
 
+        > .d-flex {
+            @media(max-width:1000px) {
+                flex-direction: column;;
+            }
+        }
+
         h2 {
             font: {
                 size: 48px;
@@ -17,6 +23,17 @@
             &.white {
                 color: $white;
             }
+            
+            @media(max-width:1000px) {
+                font-size: 36px;
+            }
+            
         }
+
+        @media(max-width:1000px) {
+            padding-top: 70px;
+            background: linear-gradient(180deg,$white 50%,$black 0.1%,$black 50%);
+        }
+        
     }
 }

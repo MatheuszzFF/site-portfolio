@@ -3866,7 +3866,7 @@ body.customize-support .header.intern {
 @media (min-width: 1001px) {
   .header__menu > ul > li + li {
     margin-left: 80px;
-    margin-top: none;
+    margin-top: 0;
   }
 }
 @media (max-width: 1000px) {

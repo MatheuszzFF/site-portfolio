@@ -3841,8 +3841,10 @@ body.customize-support .header.intern {
   font-weight: 600;
   color: #FFD838;
 }
-.header__menu > ul {
-  display: flex;
+@media (min-width: 1001px) {
+  .header__menu > ul {
+    display: flex;
+  }
 }
 .header__menu > ul > li > a {
   font-size: 18px;
@@ -3853,8 +3855,19 @@ body.customize-support .header.intern {
 .header__menu > ul > li > a:hover {
   color: #FFD838;
 }
+@media (max-width: 1000px) {
+  .header__menu > ul > li > a {
+    color: #FFFFFF;
+  }
+}
 .header__menu > ul > li + li {
-  margin-left: 80px;
+  margin-top: 60px;
+}
+@media (min-width: 1001px) {
+  .header__menu > ul > li + li {
+    margin-left: 80px;
+    margin-top: none;
+  }
 }
 @media (max-width: 1000px) {
   .header__menu {
@@ -3896,6 +3909,9 @@ body.customize-support .header.intern {
 }
 .header__mobileBtn:hover {
   opacity: 0.7;
+}
+.header__mobileBtn.active .btnMobile, .header__mobileBtn.active .btnMobile::after, .header__mobileBtn.active .btnMobile::before {
+  background-color: #FFFFFF;
 }
 
 .home__banner {

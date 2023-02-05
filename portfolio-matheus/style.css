@@ -3888,6 +3888,10 @@ body.customize-support .header.intern {
 }
 .header__menu.active > ul > li > a {
   text-align: center;
+  font-size: 40px;
+}
+.header__menu.active > ul > li > a:hover {
+  all: unset;
 }
 .header__mobileBtn {
   display: none;

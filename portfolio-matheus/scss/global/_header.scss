@@ -73,6 +73,11 @@
                 > li {
                     > a {
                         text-align: center;
+                        font-size: 40px;
+
+                        &:hover {
+                            all: unset;
+                        }
                     }
                 }
             }

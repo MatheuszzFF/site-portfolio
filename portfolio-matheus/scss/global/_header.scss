@@ -51,6 +51,8 @@
 
         @media(max-width:1000px) {
            display: block;
+           transition: .3s;
+           cursor: pointer;
         }
 
         .btnMobile {
@@ -58,8 +60,7 @@
             height: 4px;
             background-color: $primaryColor;
             position: relative;
-            cursor: pointer;
-            transition: .3s;
+            
 
             &::before, &::after {
                 content: "";
@@ -75,10 +76,10 @@
                 top: unset;
                 bottom: 10px;
             }
-
-            &:hover {
-                opacity: .7;
-            }
+        }
+        
+        &:hover {
+            opacity: .7;
         }
     }
 }

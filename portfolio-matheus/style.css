@@ -3869,6 +3869,8 @@ body.customize-support .header.intern {
 @media (max-width: 1000px) {
   .header__mobileBtn {
     display: block;
+    transition: 0.3s;
+    cursor: pointer;
   }
 }
 .header__mobileBtn .btnMobile {
@@ -3876,8 +3878,6 @@ body.customize-support .header.intern {
   height: 4px;
   background-color: #FFD838;
   position: relative;
-  cursor: pointer;
-  transition: 0.3s;
 }
 .header__mobileBtn .btnMobile::before, .header__mobileBtn .btnMobile::after {
   content: "";
@@ -3892,7 +3892,7 @@ body.customize-support .header.intern {
   top: unset;
   bottom: 10px;
 }
-.header__mobileBtn .btnMobile:hover {
+.header__mobileBtn:hover {
   opacity: 0.7;
 }
 

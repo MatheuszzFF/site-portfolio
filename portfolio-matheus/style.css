@@ -3890,7 +3890,7 @@ body.customize-support .header.intern {
   font-size: 30px;
 }
 .header__menu.active > ul > li > a:hover {
-  all: unset;
+  color: initial;
 }
 .header__mobileBtn {
   display: none;

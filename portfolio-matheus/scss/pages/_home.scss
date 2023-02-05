@@ -26,12 +26,17 @@
             
             @media(max-width:1000px) {
                 font-size: 36px;
+                text-align: center;
+                max-width: 48%;
             }
             
         }
 
         @media(max-width:1000px) {
-            padding-top: 70px;
+            padding: {
+                top: 70px;
+                bottom: 15px;
+            }
             background: linear-gradient(180deg,$white 50%,$black 0.1%,$black 50%);
         }
         

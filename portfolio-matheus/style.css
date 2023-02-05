@@ -3885,6 +3885,10 @@ body.customize-support .header.intern {
   .home__banner h2 {
     font-size: 36px;
     text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .home__banner h2 {
     max-width: none;
   }
 }

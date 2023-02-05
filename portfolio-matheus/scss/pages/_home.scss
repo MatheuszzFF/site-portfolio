@@ -28,9 +28,11 @@
             @media(max-width:1000px) {
                 font-size: 36px;
                 text-align: center;
+            }
+
+            @media(max-width:500px) {
                 max-width: none;
             }
-            
         }
 
         @media(max-width:1000px) {

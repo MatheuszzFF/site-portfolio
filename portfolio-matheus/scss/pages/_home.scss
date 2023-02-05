@@ -4,7 +4,7 @@
         width: 100%;
         background: linear-gradient(90deg,$white 50%,$black 0.1%,$black 50%);
 
-        > .d-flex {
+        .d-flex {
             @media(max-width:1000px) {
                 flex-direction: column;;
             }

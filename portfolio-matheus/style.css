@@ -3866,7 +3866,7 @@ body.customize-support .header.intern {
   background: linear-gradient(90deg, #FFFFFF 50%, #161618 0.1%, #161618 50%);
 }
 @media (max-width: 1000px) {
-  .home__banner > .d-flex {
+  .home__banner .d-flex {
     flex-direction: column;
   }
 }

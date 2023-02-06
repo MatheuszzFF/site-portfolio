@@ -49,7 +49,11 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(50%, auto));
+            grid-template-columns: repeat(auto-fit,  auto);
+
+            .selfImage {
+                min-width: 50%;
+            }
         }
     }
 }

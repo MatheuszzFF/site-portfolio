@@ -4,7 +4,7 @@
         <h2><?php the_field('home_about_title'); ?></h2>
         <div class="grid">
             <?php 
-                $about_image = get_sub_field('home_about_image');
+                $about_image = get_field('home_about_image');
                 $about_image_url = $about_image['url'];
                 $about_image_alt = $about_image['alt'];
             

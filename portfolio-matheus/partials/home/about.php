@@ -18,7 +18,7 @@
             </div>
 
             <div class="tabs">
-                <nav class="tab__nav">
+                <nav class="tabs__nav">
                     <ul class="menu">
                         <li tab-nav="university active">
                             <figure>

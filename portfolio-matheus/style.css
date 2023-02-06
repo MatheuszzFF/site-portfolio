@@ -3969,5 +3969,12 @@ body.customize-support .header.intern {
     background: linear-gradient(180deg, #FFFFFF 50%, #161618 0.1%, #161618 50%);
   }
 }
+.home__about {
+  height: 100vh;
+}
+.home__about .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(50%));
+}
 
 /*# sourceMappingURL=style.css.map */

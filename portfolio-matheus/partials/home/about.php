@@ -38,8 +38,8 @@
                     </ul>
                 </nav>
 
-                <div class="tab__content active">
-                    <div class="content" tab-content="university">
+                <div class="tab__content">
+                    <div class="content active" tab-content="university">
                         <?php the_field('university_editor') ?>
                     </div>
                     <div class="content" tab-content="dev">

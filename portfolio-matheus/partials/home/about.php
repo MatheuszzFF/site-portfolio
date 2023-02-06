@@ -3,17 +3,19 @@
     <div class="container">
         <h2><?php the_field('home_about_title'); ?></h2>
         <div class="grid">
-            <?php 
-                $about_image = get_field('home_about_image');
-                $about_image_url = $about_image['url'];
-                $about_image_alt = $about_image['alt'];
-            
-                if( !empty( $about_image ) ) {
-                    echo <<<IMG
-                    <img src="$about_image_url" alt="$about_image_alt" />
-                    IMG;
-                } 
-            ?>
+            <div class="div">
+                <?php 
+                    $about_image = get_field('home_about_image');
+                    $about_image_url = $about_image['url'];
+                    $about_image_alt = $about_image['alt'];
+                
+                    if( !empty( $about_image ) ) {
+                        echo <<<IMG
+                        <img src="$about_image_url" alt="$about_image_alt" />
+                        IMG;
+                    } 
+                ?>
+            </div>
 
             <div class="tabs">
                 <nav class="tab__nav">

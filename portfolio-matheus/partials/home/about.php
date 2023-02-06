@@ -40,10 +40,10 @@
                     <div class="content" tab-content="university">
                         <?php the_field('university_editor') ?>
                     </div>
-                    <div class="content" tab-content="university">
+                    <div class="content" tab-content="dev">
                         <?php the_field('dev_editor') ?>
                     </div>
-                    <div class="content" tab-content="university">
+                    <div class="content" tab-content="gym">
                         <?php the_field('gym_editor') ?>
                     </div>
                 </div>

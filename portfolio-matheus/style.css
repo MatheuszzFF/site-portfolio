@@ -3974,7 +3974,7 @@ body.customize-support .header.intern {
 }
 .home__about .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 100%));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 .home__about .grid .selfImage {
   min-width: 50%;

@@ -3974,7 +3974,7 @@ body.customize-support .header.intern {
 }
 .home__about .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(50%, auto));
 }
 
 /*# sourceMappingURL=style.css.map */

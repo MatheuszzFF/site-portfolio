@@ -43,4 +43,6 @@ window.addEventListener('load' , () => {
 
 
     }
+
+    homeTabChange();
 })

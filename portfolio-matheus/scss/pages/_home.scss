@@ -45,6 +45,7 @@
     }
 
     &__about {
+        padding: 100px 0;
         height: 100vh;
 
         .grid {
@@ -53,7 +54,32 @@
             grid-gap: 30px;
 
             .selfImage {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 min-width: 50%;
+
+                img {
+                    width: 400px;
+                    object-fit: contain;
+                }
+            }
+
+            .tabs {
+                &__nav {
+                    .menu {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    }
+                }
+
+                .content {
+                    display: none;
+                    
+                    &.active {
+                        display: block;
+                    }
+                }
             }
         }
     }

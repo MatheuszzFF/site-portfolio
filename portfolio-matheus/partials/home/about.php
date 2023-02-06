@@ -20,7 +20,7 @@
             <div class="tabs">
                 <nav class="tab__nav">
                     <ul class="menu">
-                        <li tab-nav="university">
+                        <li tab-nav="university active">
                             <figure>
                                 <img src="<?= get_template_directory_uri(); ?>/img/formatura.png" alt="">
                             </figure>
@@ -38,7 +38,7 @@
                     </ul>
                 </nav>
 
-                <div class="tab__content">
+                <div class="tab__content active">
                     <div class="content" tab-content="university">
                         <?php the_field('university_editor') ?>
                     </div>

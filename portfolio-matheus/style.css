@@ -3970,6 +3970,7 @@ body.customize-support .header.intern {
   }
 }
 .home__about {
+  padding: 100px 0;
   height: 100vh;
 }
 .home__about .grid {
@@ -3978,7 +3979,24 @@ body.customize-support .header.intern {
   grid-gap: 30px;
 }
 .home__about .grid .selfImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 50%;
+}
+.home__about .grid .selfImage img {
+  width: 400px;
+  object-fit: contain;
+}
+.home__about .grid .tabs__nav .menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.home__about .grid .tabs .content {
+  display: none;
+}
+.home__about .grid .tabs .content.active {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -40,8 +40,6 @@ window.addEventListener('load' , () => {
                 referentContent.classList.add('active');
             })
         })
-
-
     }
 
     homeTabChange();

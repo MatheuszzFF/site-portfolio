@@ -34,6 +34,7 @@ window.addEventListener('load' , () => {
 
         tabNavs.forEach(tab => {
             tab.addEventListener('click', () => {
+                console.log(tab.getAttribute('tab-nav'));
                 let referentContent = document.querySelector(`div[tab-content="${tab.getAttribute('tab-nav')}"]`);
                 desactivateAllTabs();
                 tab.classList.add('active');
